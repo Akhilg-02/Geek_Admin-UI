@@ -33,7 +33,7 @@ export const Data = () => {
     return (
       <>
         <div className="container">
-          <table className="table table-striped table-hover">
+          <table className="table table-success table-striped">
             <tbody>
               <tr>
                 <th scope="row">
@@ -108,14 +108,14 @@ export const Data = () => {
             aria-describedby="inputGroup-sizing-default"
             onChange={handleSearch}
             value={serch}
-            placeholder="Search....."
+            placeholder="Search by name"
           />
         </div>
 
         <br />
         <br />
         <div className="container">
-          <table className="table table-striped table-hover">
+          <table className="table table-success table-striped">
             <thead>
               <tr>
                 <th scope="col">
